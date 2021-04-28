@@ -1,0 +1,23 @@
+{
+  "id": "PublishStateValueSample",
+  "name": "PublishStateValueSample",
+  "description": "",
+  "version": "0.0.1",
+  "statevalues": [
+    {
+      "name": "random",
+      "defaultValue": "0",
+      "description": "random value"
+    }
+  ],
+  "parameter": {
+    "start": 10,
+    "end": 25,
+    "interval": 5000
+  },
+  "parameterDescription": {
+    "start":  "Start of random range",  
+    "end":  "End of random range",  
+    "interval":  "Interval (in ms) for send random value, could not be lower than 5000 ms"
+  } 
+}
